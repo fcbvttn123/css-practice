@@ -1,0 +1,11 @@
+Linear Gradient 
+
+    + Examples 
+
+        linear-gradient(to right, #DECBA4, #3E5151)
+
+        linear-gradient( var(--bg-color) 10%, transparent 30%, transparent 70%, var(--bg-color) 90%);
+
+    + Exercises
+
+        https://www.makeuseof.com/css-background-gradients
