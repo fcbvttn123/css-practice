@@ -30,6 +30,19 @@ body {
   position: relative;
 }
 
+.words::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    var(--bg-color) 10%,
+    transparent 30%,
+    transparent 70%,
+    var(--bg-color) 90%
+  );
+  z-index: 20;
+}
+
 .word {
   display: block;
   padding-left: 6px;
