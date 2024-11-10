@@ -9,3 +9,19 @@ Linear Gradient
     + Exercises
 
         https://www.makeuseof.com/css-background-gradients
+
+
+Tailwind CSS - Reusable Class 
+
+    // tailwind.config.js
+    module.exports = {
+        theme: {
+            extend: {
+                colors: {
+                    myColor: '#212121',
+                },
+            },
+        },
+    }
+
+    <div class="bg-myColor"></div>
